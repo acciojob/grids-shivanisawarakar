@@ -1,44 +1,34 @@
 /* Your CSS Code here. */
-.sub{
-	background-color: #FFB7C6;
-	padding: 1px;
-	
+bg-pink{
+    background: #ee82ef;
 }
-.main{
-	background-color: #11F50B;
+.bg-light-blue{
+    background: #3fe0d0;
+}
 
+.bg-green{
+    background: #9acd32;
+}
 
+.bg-orange{
+    background: #fe6347;
 }
-#r1c1{
-.r1c1{
-	background-color: #008081;
-}
-#r1c2{
-.r1c2{
-	background-color: #D7BED6;
-}
-#r2c1{
-.r2c1{
-	background-color: #FE6246;
-}
-#r2c2{
-.r2c2{
-	background-color: #3EE0D1;
-}
-#r3c1{
-.r3c1{
-	background-color: #EF83EF ;
-}
-#r3c2{
-.r3c2{
-	background-color: #9BCC32;
 
+.bg-teal{
+    background: teal;
 }
-.row>div{
-	height: 100px;
-	border: 2px dotted black;
-	
+.bg-light-pink{
+    background: #d7bfd7;
 }
-.container>div{
-	margin: 2px;
+.row{
+    border: 5px solid rgb(255, 188, 188);
+    height: 250px;
+}
+.row > * {
+    border: 3px dotted black;
+}
+div.container-fluid{
+    width: 750px;
+    border: 5px solid rgb(4, 255, 4);
+    background-color: black;
 }
